@@ -1,0 +1,8 @@
+.card {
+    border: 1px solid #ccc;
+    margin-bottom: 2rem;
+}
+
+.card h3 {
+    margin-left: 1rem;
+}

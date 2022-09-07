@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.main-container {
+  display: flex;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  max-width: 1200px;
+  margin: 6rem auto;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .gallery {
+    justify-content: center;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
